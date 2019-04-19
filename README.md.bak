@@ -12,7 +12,7 @@ Fork and clone this lab and run the test suite to get started. You'll be
 coding your solution in `objectball.js`.
 
 ### Part 1: Building the Object
-The first function you will define is called `gameObject`. This function contains
+The first funtion you will define is called `gameObject`. This funtion contains
 and returns a object nested in the following manner:
 
 * The top level of the object has two keys: `"home"`, for the home team, and `"away"`, for the away team.
@@ -113,7 +113,7 @@ console.log(homeTeamName())
 
 Now that we understand how we are going to operate on the object that's
 returned from `gameObject` inside of other functions we're building, let's
-make sure we know how to debug our programs, then build those functions.
+make sure we know how to debug ou programs, then build those functions.
 
 # Debugging JavaScript
 We have two options to debug our JavaScript programs:
@@ -154,8 +154,8 @@ Instead of using `node` to debug or command line JavaScript programs let's
 attach our JavaScript to an HTML page, open that HTML page in Chrome and
 leverage Chrome's amazing developer tools.
 
-Here's a sample web page that doesn't have much content and primarily just
-attaches a JavaScript file. Chrome will execute the JavaScript and we can
+Here's a sample webpage that doesn't have much content and primarily just
+attaches a JavaSCript file. Chrome will execute the JavaScript and we can
 open Chrome's dev tools to debug our program.
 
 ```html
