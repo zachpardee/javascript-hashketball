@@ -36,7 +36,6 @@ and returns a object nested in the following manner:
   * `"slamDunks"`
 
 Use the following data to populate your `gameObject` as outlined above.
-Remember to run `learn` to see what the tests expect.
 
 Home Team:
 * Team name: Brooklyn Nets
