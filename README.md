@@ -281,7 +281,7 @@ function goodPractices()
 
 Play around with the debug tools around each `debugger` keyword until you get
 comfortable with the iteration. This should give you a stronger sense of how
-we iterate through so many levels of a nested hash and what happens on each
+we iterate through so many levels of a nested object and what happens on each
 level. **Use this strategy of placing LOTS of `debugger` keywords when you
 iterate over things in order to investigate your program and solve this
 lab.**
@@ -291,7 +291,7 @@ Okay, *now* we're ready to build out functions:
 ### Function Building
 
 * Build a function, `numPointsScored` that takes in an argument of a player's name and returns the number of points scored for that player.
-  * Think about where in the hash you will find a player's `points`. How can
+  * Think about where in the object you will find a player's `points`. How can
     you iterate down into that level? Think about the return value of your
     function.
 * Build a function, `shoeSize`, that takes in an argument of a player's name and returns the shoe size for that player.
@@ -300,12 +300,12 @@ Okay, *now* we're ready to build out functions:
     into the function as an argument?
 * Build a function, `teamColors`, that takes in an argument of the team name
   and returns an array of that teams colors.
-* Build a function, `teamNames`, that operates on the game hash to return an
+* Build a function, `teamNames`, that operates on the game object to return an
   array of the team names.
 * Build a function, `playerNumbers`, that takes in an argument of a team name
   and returns an array of the jersey number's for that team.
 * Build a function, `playerStats`, that takes in an argument of a player's name
-  and returns a hash of that player's stats.
+  and returns a object of that player's stats.
   * Check out the following example of the expected return value of the `playerStats` function:
 
     ```js
